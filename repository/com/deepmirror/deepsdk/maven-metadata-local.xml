@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.deepmirror</groupId>
+  <artifactId>deepsdk</artifactId>
+  <versioning>
+    <latest>0.5.0-SNAPSHOT</latest>
+    <release>0.5.0</release>
+    <versions>
+      <version>0.4.0-SNAPSHOT</version>
+      <version>0.4.1-SNAPSHOT</version>
+      <version>0.4.2-SNAPSHOT</version>
+      <version>0.4.3-SNAPSHOT</version>
+      <version>0.4.4-SNAPSHOT</version>
+      <version>0.4.5-SNAPSHOT</version>
+      <version>0.5.0-SNAPSHOT</version>
+      <version>0.5.0</version>
+    </versions>
+    <lastUpdated>20201204031622</lastUpdated>
+  </versioning>
+</metadata>
