@@ -1,0 +1,168 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.deepmirror",
+    "module": "deepsdk",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "7amyb3lkwjcy5nz5lfnhs2z2h4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.boofcv",
+          "module": "boofcv-core",
+          "version": {
+            "requires": "0.35"
+          },
+          "excludes": [
+            {
+              "group": "xmlpull",
+              "module": "xmlpull"
+            },
+            {
+              "group": "org.apache.commons",
+              "module": "commons-compress"
+            },
+            {
+              "group": "com.thoughtworks.xstream",
+              "module": "commons-compress"
+            }
+          ]
+        },
+        {
+          "group": "com.google.mlkit",
+          "module": "barcode-scanning",
+          "version": {
+            "requires": "16.0.3"
+          },
+          "excludes": [
+            {
+              "group": "xmlpull",
+              "module": "xmlpull"
+            },
+            {
+              "group": "org.apache.commons",
+              "module": "commons-compress"
+            },
+            {
+              "group": "com.thoughtworks.xstream",
+              "module": "commons-compress"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "deepsdk-0.5.1.aar",
+          "url": "deepsdk-0.5.1.aar",
+          "size": 19426758,
+          "sha512": "a5f496064e0dc53bef71af11bd7c0222e6f2b7dc591ffc7908223fdea90a2cb8ff426d26c17606d50f4b52d565c24b2bbf45f4115c0fc03b274b011ac94f8bfa",
+          "sha256": "613250d122f4cdc83dec97780908d4670a734a80c55e0821579194151b635178",
+          "sha1": "e0635f2497a4a3245ddd678acc7abbd1649ddb42",
+          "md5": "15fd4e5c1cd56026c7a47a9abe5a6f90"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          },
+          "excludes": [
+            {
+              "group": "xmlpull",
+              "module": "xmlpull"
+            },
+            {
+              "group": "org.apache.commons",
+              "module": "commons-compress"
+            },
+            {
+              "group": "com.thoughtworks.xstream",
+              "module": "commons-compress"
+            }
+          ]
+        },
+        {
+          "group": "org.boofcv",
+          "module": "boofcv-core",
+          "version": {
+            "requires": "0.35"
+          },
+          "excludes": [
+            {
+              "group": "xmlpull",
+              "module": "xmlpull"
+            },
+            {
+              "group": "org.apache.commons",
+              "module": "commons-compress"
+            },
+            {
+              "group": "com.thoughtworks.xstream",
+              "module": "commons-compress"
+            }
+          ]
+        },
+        {
+          "group": "com.google.mlkit",
+          "module": "barcode-scanning",
+          "version": {
+            "requires": "16.0.3"
+          },
+          "excludes": [
+            {
+              "group": "xmlpull",
+              "module": "xmlpull"
+            },
+            {
+              "group": "org.apache.commons",
+              "module": "commons-compress"
+            },
+            {
+              "group": "com.thoughtworks.xstream",
+              "module": "commons-compress"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "deepsdk-0.5.1.aar",
+          "url": "deepsdk-0.5.1.aar",
+          "size": 19426758,
+          "sha512": "a5f496064e0dc53bef71af11bd7c0222e6f2b7dc591ffc7908223fdea90a2cb8ff426d26c17606d50f4b52d565c24b2bbf45f4115c0fc03b274b011ac94f8bfa",
+          "sha256": "613250d122f4cdc83dec97780908d4670a734a80c55e0821579194151b635178",
+          "sha1": "e0635f2497a4a3245ddd678acc7abbd1649ddb42",
+          "md5": "15fd4e5c1cd56026c7a47a9abe5a6f90"
+        }
+      ]
+    }
+  ]
+}
