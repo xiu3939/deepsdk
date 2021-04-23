@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.1.1",
-      "buildId": "wmgg4qiq3vdyvo3w5prvvvpzse"
+      "buildId": "t2kr2jwm5vaglflic2clsrfire"
     }
   },
   "variants": [
@@ -71,11 +71,11 @@
         {
           "name": "deepsdk-0.7.1.aar",
           "url": "deepsdk-0.7.1.aar",
-          "size": 38844023,
-          "sha512": "d6cd11880c5b7527c605dc5972aae75adca2300966f782dc4d912dfc48570107f741315b046b23f07795059cef1a46e270d4ec53e32a21bc7458704a5756501e",
-          "sha256": "07e0009bd249ac24142c0df8dcc126ebe43941ddc5bdaa37501fb4525761a778",
-          "sha1": "44e01dad1d1f46983b6dde35212d55b9a3c1d565",
-          "md5": "0b347ac282d3c4d302a96c7053c1a8dd"
+          "size": 38844046,
+          "sha512": "bd3c3c391a94971ac41d132bc40a6423a60e9c743232cf402cbf11fed7d5828eefc6622119354d9f0355ef8f586f8b9c2e6b17513320d4e95c98e694aaee3a1b",
+          "sha256": "b769c3405582683a94c7a678db35ddbfec19509b7114bbec6eff32b76d48bf51",
+          "sha1": "2bf6be0e636c6607ad8147a250df13b34f3ab1fb",
+          "md5": "5d6b759f6c072765dc66c75e2bdaab56"
         }
       ]
     },
@@ -156,11 +156,11 @@
         {
           "name": "deepsdk-0.7.1.aar",
           "url": "deepsdk-0.7.1.aar",
-          "size": 38844023,
-          "sha512": "d6cd11880c5b7527c605dc5972aae75adca2300966f782dc4d912dfc48570107f741315b046b23f07795059cef1a46e270d4ec53e32a21bc7458704a5756501e",
-          "sha256": "07e0009bd249ac24142c0df8dcc126ebe43941ddc5bdaa37501fb4525761a778",
-          "sha1": "44e01dad1d1f46983b6dde35212d55b9a3c1d565",
-          "md5": "0b347ac282d3c4d302a96c7053c1a8dd"
+          "size": 38844046,
+          "sha512": "bd3c3c391a94971ac41d132bc40a6423a60e9c743232cf402cbf11fed7d5828eefc6622119354d9f0355ef8f586f8b9c2e6b17513320d4e95c98e694aaee3a1b",
+          "sha256": "b769c3405582683a94c7a678db35ddbfec19509b7114bbec6eff32b76d48bf51",
+          "sha1": "2bf6be0e636c6607ad8147a250df13b34f3ab1fb",
+          "md5": "5d6b759f6c072765dc66c75e2bdaab56"
         }
       ]
     }
